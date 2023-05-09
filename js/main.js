@@ -11,8 +11,16 @@ let nombreCurso = 'Código LATAM';
 let resultadoSuma = num1 + num2;
 let resultadoResta = num1 - num2;
 let resultadoMultiplicacion = num1 * num2;
+let resultadoDivision = num1 / num2;
+let resultadoNum1Entero = num1 + 15;
+let resultadoNum1Decimal = num1 + 12.5;
+let resultadoNum1String = num1 + 'Mas String'
 
 console.log(resultadoSuma);
 console.log(resultadoResta);
 console.log(resultadoMultiplicacion);
-console.log(saludo + 'Esto es' + nombreCurso )
+console.log(resultadoDivision);
+console.log(resultadoNum1Entero);
+console.log(resultadoNum1Decimal);
+console.log(resultadoNum1String);
+console.log(saludo + 'Esto es' + nombreCurso );
